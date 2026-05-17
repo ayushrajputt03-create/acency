@@ -40,12 +40,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon.jpeg", type: "image/jpeg" }
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.png", type: "image/png", sizes: "64x64" }
     ],
     apple: [
-      { url: "/apple-icon.jpeg", type: "image/jpeg" }
+      { url: "/apple-icon.png", type: "image/png", sizes: "180x180" }
     ],
-    shortcut: ["/icon.jpeg"]
+    shortcut: ["/favicon.png"]
   },
   openGraph: {
     title: "Best School in Loni | Triveni Triratan Public Jr. High School",

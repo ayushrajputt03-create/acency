@@ -27,12 +27,12 @@ export const school = {
     "Prakash Vihar, Main 25 Feet Road, Loni, Ghaziabad, Uttar Pradesh 201102",
   locality: "Prakash Vihar, Loni, Ghaziabad",
   phone: "7838296298",
-  secondaryPhone: "9911168184",
-  displayPhone: "7838296298 / 9911168184",
+  secondaryPhone: "7838296298",
+  displayPhone: "7838296298",
   whatsapp:
-    "whatsapp://send?phone=919911168184&text=Hello%20I%20want%20admission%20details",
+    "https://wa.me/917838296298?text=Hello%20Triveni%20School%2C%20I%20want%20admission%20inquiry.",
   whatsappWeb:
-    "https://wa.me/919911168184?text=Hello%20I%20want%20admission%20details",
+    "https://wa.me/917838296298?text=Hello%20Triveni%20School%2C%20I%20want%20admission%20inquiry.",
   mapQuery:
     "Triveni Triratan Public Jr. High School Prakash Vihar Main 25 Feet Road Loni Ghaziabad Uttar Pradesh 201102",
   openingHours: "Mon - Sat: 8:00 AM - 2:30 PM"
@@ -43,6 +43,7 @@ export const navItems = [
   { label: "Admission", href: "#admissions" },
   { label: "Facilities", href: "#facilities" },
   { label: "Academics", href: "#academics" },
+  { label: "Pricing", href: "#pricing" },
   { label: "Reviews", href: "#reviews" },
   { label: "Contact", href: "#contact" }
 ];

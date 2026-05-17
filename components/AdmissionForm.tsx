@@ -32,7 +32,7 @@ export function AdmissionForm() {
     )}`;
 
     setMessage("Opening WhatsApp with your inquiry...");
-    window.open(`https://wa.me/91${school.secondaryPhone}?text=${message}`, "_blank");
+    window.open(`https://wa.me/91${school.phone}?text=${message}`, "_blank");
   }
 
   return (
