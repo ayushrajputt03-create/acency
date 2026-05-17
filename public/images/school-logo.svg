@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Triveni Triratan Public Jr. High School logo</title>
+  <desc id="desc">Round school logo with book, torch, and Knowledge Is Power motto.</desc>
+  <rect width="600" height="600" fill="#ffffff"/>
+  <circle cx="300" cy="275" r="238" fill="#ffffff" stroke="#168fc5" stroke-width="14"/>
+  <circle cx="300" cy="275" r="162" fill="#ffffff" stroke="#168fc5" stroke-width="8"/>
+  <path id="topArc" d="M96 304a204 204 0 0 1 408 0" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="43" font-weight="900" fill="#e5232b" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">TRIVENI TRIRATAN PUBLIC JR. HIGH. SCHOOL</textPath>
+  </text>
+  <path d="M205 335c42-30 78-24 95 0 17-24 53-30 95 0v66c-42-24-79-20-95 8-16-28-53-32-95-8z" fill="none" stroke="#173d86" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M235 309v74m130-74v74" stroke="#1498cf" stroke-width="12" stroke-linecap="round"/>
+  <path d="M300 178c-34 35-14 73 0 92 14-19 34-57 0-92z" fill="#f8c04e" stroke="#d72b21" stroke-width="8"/>
+  <path d="M300 264v92" stroke="#8b4b20" stroke-width="14" stroke-linecap="round"/>
+  <path d="M270 280h60l-13 31h-34z" fill="#b8732b" stroke="#7d4018" stroke-width="6"/>
+  <text x="300" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="900" fill="#d5282f">(Govt. Recognised)</text>
+  <path d="M60 498c150-43 330-43 480 0l-26 86c-132-37-296-37-428 0z" fill="#2e328b"/>
+  <text x="300" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="2">KNOWLEDGE IS POWER</text>
+</svg>

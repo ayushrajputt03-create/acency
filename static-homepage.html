@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Best School in Loni Ghaziabad | Triveni Triratan Public Jr High School</title>
+    <meta
+      name="description"
+      content="Looking for the best school near you in Loni? Triveni Triratan Public Jr High School offers affordable fees, quality education, and caring teachers. Admissions Open 2026-2027."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --navy: #093c5d;
+        --ink: #102131;
+        --gold: #f6c65b;
+        --soft: #e7f4ff;
+        --mist: #f5f7fa;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font-family: Manrope, system-ui, sans-serif;
+        color: var(--ink);
+        background: white;
+      }
+      a { color: inherit; text-decoration: none; }
+      .container { width: min(100% - 32px, 1200px); margin: auto; }
+      .header {
+        position: fixed; inset: 0 0 auto; z-index: 50; height: 64px;
+        background: rgba(255,255,255,.94); backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(15,23,42,.08);
+      }
+      .nav { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+      .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+      .mark { width: 46px; height: 46px; border-radius: 999px; background: white; color: white; display: grid; place-items: center; font-weight: 900; overflow: hidden; box-shadow: 0 12px 28px rgba(9,60,93,.14); }
+      .mark img { width: 100%; height: 100%; object-fit: contain; padding: 2px; }
+      .brand strong, .brand span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .brand strong { color: var(--navy); font-size: 14px; text-transform: uppercase; }
+      .brand span { color: #64748b; font-size: 12px; font-weight: 800; }
+      .links { display: none; gap: 28px; font-size: 14px; font-weight: 900; color: #334155; }
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+        min-height: 48px; padding: 0 20px; border-radius: 8px;
+        font-size: 14px; font-weight: 900; box-shadow: 0 18px 45px rgba(9,60,93,.14);
+      }
+      .btn.primary { background: var(--navy); color: white; }
+      .btn.light { background: white; color: var(--navy); }
+      .btn.ghost { border: 1px solid rgba(255,255,255,.38); color: white; background: rgba(255,255,255,.12); }
+      .hero {
+        min-height: 92svh; padding-top: 64px; position: relative; color: white; overflow: hidden;
+        background-image: linear-gradient(90deg, rgba(4,31,49,.92), rgba(9,60,93,.72) 44%, rgba(9,60,93,.12)), url("/public/images/school-admissions-hero.png");
+        background-size: cover; background-position: center;
+      }
+      .hero-inner { min-height: calc(92svh - 64px); display: flex; align-items: center; padding: 56px 0; }
+      .pill { display: inline-flex; align-items: center; gap: 8px; padding: 9px 13px; border-radius: 999px; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.12); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      h1 { max-width: 760px; margin: 18px 0 0; font-size: clamp(40px, 8vw, 72px); line-height: 1.06; letter-spacing: 0; }
+      h2 { margin: 0; font-size: clamp(30px, 5vw, 48px); line-height: 1.12; letter-spacing: 0; }
+      h3 { margin: 0; }
+      .lead { max-width: 690px; margin-top: 20px; color: rgba(255,255,255,.88); font-size: 20px; font-weight: 800; line-height: 1.6; }
+      .copy { color: #64748b; font-weight: 700; line-height: 1.8; }
+      .hero-copy { max-width: 690px; color: rgba(255,255,255,.78); font-weight: 700; line-height: 1.8; }
+      .cta-row { display: flex; flex-direction: column; gap: 12px; margin-top: 30px; }
+      .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; max-width: 580px; margin-top: 32px; }
+      .stat { border-radius: 8px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.12); padding: 14px; }
+      .stat strong { display: block; font-size: 21px; }
+      .stat span { display: block; margin-top: 5px; color: rgba(255,255,255,.76); font-size: 11px; font-weight: 800; line-height: 1.4; }
+      section { padding: 72px 0; }
+      .proof { padding: 28px 0; border-bottom: 1px solid #eef2f7; }
+      .proof-grid { display: grid; gap: 18px; align-items: center; }
+      .eyebrow { margin: 0 0 12px; color: var(--navy); font-size: 13px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
+      .rating { display: inline-flex; align-items: center; gap: 4px; padding: 12px 16px; background: #fff7e3; color: var(--navy); border-radius: 8px; box-shadow: 0 18px 45px rgba(9,60,93,.12); font-size: 18px; font-weight: 900; }
+      .gold { color: var(--gold); }
+      .mist { background: var(--mist); }
+      .sky { background: var(--soft); }
+      .grid-3 { display: grid; gap: 16px; }
+      .grid-2 { display: grid; gap: 36px; align-items: center; }
+      .topper-section { padding: 54px 0; }
+      .topper-wrap { display: grid; gap: 28px; align-items: center; }
+      .topper-copy h2 { max-width: 620px; font-size: clamp(34px, 4vw, 54px); }
+      .card { background: white; border-radius: 8px; padding: 24px; box-shadow: 0 18px 45px rgba(9,60,93,.12); }
+      .reason { border: 1px solid #eef2f7; }
+      .icon { width: 48px; height: 48px; border-radius: 8px; background: var(--navy); color: white; display: grid; place-items: center; font-size: 24px; }
+      .reason h3 { margin-top: 18px; font-size: 21px; font-weight: 900; }
+      .admission { background: var(--navy); color: white; }
+      .admission .copy { color: rgba(255,255,255,.78); }
+      form { display: grid; gap: 12px; }
+      input { width: 100%; height: 48px; border: 1px solid #dbe3ed; border-radius: 8px; padding: 0 16px; font: inherit; font-weight: 800; }
+      .gallery { display: grid; gap: 16px; margin-top: 36px; }
+      .gallery img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+      .topper-frame { max-height: 680px; overflow: hidden; border-radius: 8px; background: #fffaf0; box-shadow: 0 22px 55px rgba(9,60,93,.18); }
+      .topper-img { width: 100%; max-height: 680px; object-fit: contain; display: block; }
+      .topper-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 24px; }
+      .topper-card { padding: 14px; border-radius: 8px; background: #fff9ea; border: 1px solid #f5e7bd; box-shadow: 0 18px 45px rgba(9,60,93,.1); }
+      .topper-card span { color: var(--navy); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+      .topper-card strong { display: block; margin-top: 4px; font-size: 16px; font-weight: 900; }
+      .topper-card b { display: block; margin-top: 6px; color: var(--navy); font-size: 24px; }
+      .gallery .card { padding: 0; overflow: hidden; }
+      .gallery h3 { padding: 16px; font-size: 16px; font-weight: 900; }
+      .map-card { min-height: 390px; border-radius: 8px; padding: 34px; display: grid; align-content: center; background: linear-gradient(135deg, #ffffff, #e7f4ff); box-shadow: 0 22px 55px rgba(9,60,93,.18); border: 1px solid #e2edf7; position: relative; overflow: hidden; }
+      .map-card::before { content: ""; position: absolute; inset: 18px; border: 2px dashed rgba(9,60,93,.16); border-radius: 8px; }
+      .map-card > * { position: relative; z-index: 1; }
+      footer { background: #061f32; color: white; padding: 48px 0 92px; }
+      .footer-grid { display: grid; gap: 30px; }
+      .mobile-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px; background: rgba(255,255,255,.96); box-shadow: 0 -18px 45px rgba(9,60,93,.16); }
+      .whatsapp { background: #128c7e; color: white; }
+      .desktop-float { position: fixed; right: 22px; bottom: 22px; z-index: 55; display: none; gap: 12px; }
+      .form-note { min-height: 22px; margin: 2px 0 0; color: #128c7e; font-size: 13px; font-weight: 900; }
+      @media (min-width: 720px) {
+        .cta-row { flex-direction: row; }
+        .proof-grid, .grid-2 { grid-template-columns: 1fr 1fr; }
+        .topper-wrap { grid-template-columns: .95fr .9fr; }
+        .grid-3, .gallery { grid-template-columns: repeat(3, 1fr); }
+        .footer-grid { grid-template-columns: 1.2fr .8fr .8fr; }
+      }
+      @media (min-width: 980px) { .links { display: flex; } }
+      @media (min-width: 768px) { footer { padding-bottom: 48px; } .mobile-bar { display: none; } .desktop-float { display: flex; } }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="#top"><span class="mark"><img src="/public/images/school-logo.svg" alt="Triveni Triratan Public Jr. High School logo"></span><span><strong>Triveni Triratan</strong><span>Public Jr. High School</span></span></a>
+        <nav class="links"><a href="#why-us">Why Us</a><a href="#admissions">Admissions</a><a href="#gallery">Gallery</a><a href="#location">Location</a></nav>
+        <a class="btn primary" href="tel:+917838296298">Call Now</a>
+      </div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <span class="pill">Limited Seats Available</span>
+            <div style="display:flex;align-items:center;gap:16px;margin-top:22px;margin-bottom:8px">
+              <span class="mark" style="width:80px;height:80px"><img src="/public/images/school-logo.svg" alt="Triveni Triratan Public Jr. High School logo"></span>
+              <span><strong style="display:block;color:var(--gold);text-transform:uppercase;font-size:13px">Govt. Recognised</strong><strong style="font-size:20px">Knowledge Is Power</strong></span>
+            </div>
+            <h1>Best School in Loni for Your Child's Bright Future</h1>
+            <p class="lead">Affordable Fees | Quality Education | Caring Teachers</p>
+            <p class="hero-copy">Admissions open for session 2026-2027 at Triveni Triratan Public Jr. High School, Prakash Vihar, Loni Ghaziabad.</p>
+            <div class="cta-row"><a class="btn light" href="tel:+917838296298">Call Now</a><a class="btn ghost" href="#admissions">Admission Open 2026-2027</a></div>
+            <div class="stats"><div class="stat"><strong>5.0</strong><span>Parent Rating</span></div><div class="stat"><strong>2026-27</strong><span>Admission Open</span></div><div class="stat"><strong>Loni</strong><span>Trusted Local School</span></div></div>
+          </div>
+        </div>
+      </section>
+      <div class="proof"><div class="container proof-grid"><div><p class="eyebrow">Best school near me in Loni Ghaziabad</p><h2>5.0 rated by parents for care, discipline, and education quality.</h2></div><div class="rating"><span class="gold">★★★★★</span> 5.0</div></div></div>
+      <section class="mist"><div class="container"><p class="eyebrow">Parent Trust</p><h2>Parents choose Triveni Triratan for a safe environment and a brighter future.</h2><div class="grid-3" style="margin-top:36px"><div class="card"><p class="gold">★★★★★</p><p class="copy">"Best school near me with affordable fees. My child is learning with confidence."</p><strong>Renu Sharma</strong></div><div class="card"><p class="gold">★★★★★</p><p class="copy">"Teachers are very supportive and caring. The school gives personal attention."</p><strong>Amit Kumar</strong></div><div class="card"><p class="gold">★★★★★</p><p class="copy">"Excellent education quality with discipline, values, and a safe environment."</p><strong>Pooja Verma</strong></div></div></div></section>
+      <section><div class="container grid-2"><div><p class="eyebrow">About The School</p><h2>A disciplined school in Loni Ghaziabad where children feel cared for and ready to grow.</h2></div><div class="card sky"><p class="copy">Triveni Triratan Public Jr. High School focuses on strong academics, good manners, values, classroom discipline, and a nurturing environment. Parents get an affordable school in Loni with quality education close to home.</p></div></div></section>
+      <section id="why-us" class="mist"><div class="container"><p class="eyebrow">Why Choose Us</p><h2>Why parents searching for the best school nearby trust us.</h2><div class="grid-3" style="margin-top:36px"><div class="card reason"><div class="icon">✓</div><h3>Experienced Teachers</h3><p class="copy">Supportive teachers who build concepts and confidence.</p></div><div class="card reason"><div class="icon">₹</div><h3>Affordable Fees</h3><p class="copy">Quality education with a practical fee structure.</p></div><div class="card reason"><div class="icon">●</div><h3>Safe Environment</h3><p class="copy">A disciplined campus where children feel protected.</p></div><div class="card reason"><div class="icon">♡</div><h3>Individual Attention</h3><p class="copy">Regular guidance helps every child improve.</p></div><div class="card reason"><div class="icon">A+</div><h3>Strong Academic Foundation</h3><p class="copy">Focused learning habits for a brighter future.</p></div><div class="card reason"><div class="icon">★</div><h3>Values With Confidence</h3><p class="copy">Children learn responsibility, manners, and self-belief.</p></div></div></div></section>
+      <section id="admissions" class="admission"><div class="container grid-2"><div><p class="eyebrow gold">Admissions Open 2026-2027</p><h2>Limited seats available. Enroll your child today.</h2><p class="copy">Book a school visit, speak with the admission team, and give your child a confident start at a trusted school in Loni Ghaziabad.</p><div class="cta-row"><a class="btn light" href="tel:+917838296298">Call Now</a><a class="btn ghost" href="#location">Visit School</a></div></div><div class="card"><h3 style="color:var(--navy);font-size:26px">Simple Inquiry Form</h3><p class="copy">Send details on WhatsApp and our team can guide you for admission.</p><form id="admissionForm"><input name="name" required autocomplete="name" placeholder="Parent Name"><input name="phone" required inputmode="tel" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit Phone Number"><input name="className" required placeholder="Class for Admission"><button class="btn primary" style="width:100%" type="submit">Book School Visit</button><p class="form-note" id="formNote" aria-live="polite"></p></form></div></div></section>
+      <section class="topper-section"><div class="container topper-wrap"><div class="topper-copy"><p class="eyebrow">Our Toppers, Our Pride</p><h2>Board exam success that inspires the next admission batch.</h2><p class="copy">Strong academics, regular guidance, and disciplined learning help students aim higher. Your child can be next.</p><div class="topper-grid"><div class="topper-card"><span>Rank 1</span><strong>Anshu</strong><small>12th Class</small><b>80.83%</b></div><div class="topper-card"><span>Rank 2</span><strong>Shalini Pandey</strong><small>10th Class</small><b>80.00%</b></div><div class="topper-card"><span>Rank 3</span><strong>Vanshika</strong><small>10th Class</small><b>75.16%</b></div><div class="topper-card"><span>Rank 4</span><strong>Sheetal</strong><small>10th Class</small><b>74.66%</b></div></div><div class="cta-row"><a class="btn primary" href="#admissions">Admission Open 2026-2027</a></div></div><div class="topper-frame"><img class="topper-img" src="/public/images/school-toppers.svg" alt="School toppers in board exam at Triveni Triratan Public Jr. High School"></div></div></section>
+      <section id="gallery"><div class="container"><p class="eyebrow">Gallery</p><h2>Learning spaces built for academics, activities, and confidence.</h2><div class="gallery"><div class="card"><img src="/public/images/school-admissions-hero.png" alt="Best school in Loni with safe campus and caring teachers"><h3>Safe School Environment</h3></div><div class="card"><img src="/public/images/classroom-learning.png" alt="Students studying in a classroom at an affordable school in Loni"><h3>Classroom Learning</h3></div><div class="card"><img src="/public/images/activity-learning.png" alt="Students doing activities at a school in Loni Ghaziabad"><h3>Activities and Growth</h3></div></div></div></section>
+      <section id="location" class="mist"><div class="container grid-2"><div><p class="eyebrow">Location</p><h2>Best School Near Me in Loni Ghaziabad</h2><p class="copy">Visit us at Prakash Vihar, Main 25 Feet Road, Loni, Ghaziabad, Uttar Pradesh - 201102.</p><p><strong>Phone:</strong> <a href="tel:+917838296298">7838296298</a>, <a href="tel:+919911168184">9911168184</a></p><div class="cta-row"><a class="btn primary" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Prakash%20Vihar%20Main%2025%20Feet%20Road%20Loni%20Ghaziabad%20Uttar%20Pradesh%20201102">Open Google Maps</a><a class="btn light" href="tel:+917838296298">Call Admission Office</a></div></div><div class="map-card"><p class="eyebrow">School Address</p><h3 style="font-size:34px;color:var(--navy);line-height:1.2">Prakash Vihar, Main 25 Feet Road</h3><p class="copy">Loni, Ghaziabad, Uttar Pradesh - 201102</p><p style="font-weight:900;font-size:20px">Call: 7838296298, 9911168184</p><a class="btn primary" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Prakash%20Vihar%20Main%2025%20Feet%20Road%20Loni%20Ghaziabad%20Uttar%20Pradesh%20201102">Get Directions</a></div></div></section>
+    </main>
+    <footer><div class="container footer-grid"><div><h2>Triveni Triratan Public Jr. High School</h2><p class="hero-copy">Admissions open for 2026-2027. A trusted, affordable school in Loni Ghaziabad focused on quality education, values, safety, and individual attention.</p></div><div><h3 class="gold">Quick Links</h3><p><a href="#why-us">Why Choose Us</a></p><p><a href="#admissions">Admissions</a></p><p><a href="#gallery">Gallery</a></p></div><div><h3 class="gold">Contact</h3><p>7838296298</p><p>9911168184</p><p>Prakash Vihar, Main 25 Feet Road, Loni, Ghaziabad</p></div></div></footer>
+    <div class="desktop-float"><a class="btn primary" href="tel:+917838296298">Call Now</a><a class="btn whatsapp" href="https://wa.me/917838296298?text=Namaste%2C%20I%20want%20admission%20details%20for%202026-2027.">WhatsApp</a></div>
+    <div class="mobile-bar"><a class="btn primary" href="tel:+917838296298">Call Now</a><a class="btn whatsapp" href="https://wa.me/917838296298?text=Namaste%2C%20I%20want%20admission%20details%20for%202026-2027.">WhatsApp</a></div>
+    <script>
+      const form = document.getElementById("admissionForm");
+      const note = document.getElementById("formNote");
+      form?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = new FormData(form);
+        const phone = String(data.get("phone") || "").replace(/\D/g, "");
+        if (phone.length !== 10) {
+          note.textContent = "Please enter a valid 10-digit phone number.";
+          note.style.color = "#b42318";
+          return;
+        }
+        const message = `Namaste, I want admission details for 2026-2027.\nName: ${data.get("name")}\nPhone: ${phone}\nClass: ${data.get("className")}`;
+        note.textContent = "Opening WhatsApp with your inquiry...";
+        note.style.color = "#128c7e";
+        window.open(`https://wa.me/917838296298?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+      });
+    </script>
+  </body>
+</html>

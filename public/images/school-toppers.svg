@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1512" role="img" aria-labelledby="title desc">
+  <title id="title">School toppers in board exam</title>
+  <desc id="desc">Toppers poster for Triveni Public School board exam results.</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#06264a"/>
+      <stop offset="1" stop-color="#093c5d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop stop-color="#f7d16b"/>
+      <stop offset=".5" stop-color="#b87920"/>
+      <stop offset="1" stop-color="#f7d16b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#061f32" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1512" fill="#fffaf0"/>
+  <path d="M0 0h1080v190c-278-74-802-74-1080 0z" fill="url(#navy)"/>
+  <path d="M24 20h1032v145c-270-58-762-58-1032 0z" fill="#ffffff" opacity=".96"/>
+  <path d="M50 95c260-70 720-70 980 0" fill="none" stroke="url(#gold)" stroke-width="18"/>
+  <g transform="translate(460 35)">
+    <path d="M80 0l72 28v74c0 65-43 103-72 116-29-13-72-51-72-116V28z" fill="#093c5d" stroke="#d6a43b" stroke-width="6"/>
+    <path d="M80 48c-24 26-9 54 0 67 9-13 24-41 0-67z" fill="#f7c752"/>
+    <path d="M42 132c25-16 55-15 75 0" fill="none" stroke="#fff" stroke-width="9"/>
+  </g>
+  <text x="540" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" font-style="italic" fill="#08284c">Our Toppers, Our Pride!</text>
+  <text x="540" y="350" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="98" font-weight="900" fill="#08284c">SCHOOL TOPPERS</text>
+  <text x="540" y="452" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" fill="url(#gold)">IN BOARD EXAM</text>
+  <path d="M248 480h584l-28 48H276z" fill="url(#gold)"/>
+  <text x="540" y="516" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="900" fill="#061f32">DEDICATION TODAY, LEADERS TOMORROW</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="565" width="365" height="510" rx="22" fill="#093c5d" stroke="#d6a43b" stroke-width="6"/>
+    <circle cx="112" cy="610" r="50" fill="url(#gold)" stroke="#9b651c" stroke-width="5"/>
+    <text x="112" y="602" text-anchor="middle" font-family="Arial Black, Arial" font-size="44" fill="#061f32">1</text>
+    <text x="112" y="634" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#061f32">RANK</text>
+    <circle cx="252" cy="735" r="118" fill="#f3f7fb"/>
+    <text x="252" y="742" text-anchor="middle" font-family="Arial" font-size="86" font-weight="900" fill="#b07855">AN</text>
+    <rect x="90" y="900" width="325" height="154" fill="#08284c"/>
+    <text x="252" y="956" text-anchor="middle" font-family="Arial Black, Arial" font-size="47" fill="#fff">ANSHU</text>
+    <text x="252" y="1000" text-anchor="middle" font-family="Arial" font-size="28" font-weight="900" fill="#f7d16b">12th Class</text>
+    <text x="252" y="1042" text-anchor="middle" font-family="Arial Black, Arial" font-size="54" fill="#f7d16b">80.83%</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="900" fill="#08284c">
+    <g transform="translate(470 570)">
+      <rect width="250" height="250" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <circle cx="125" cy="75" r="55" fill="#eef6ff"/>
+      <text x="125" y="92" text-anchor="middle" font-size="48">SP</text>
+      <text x="125" y="154" text-anchor="middle" font-size="27">SHALINI PANDEY</text>
+      <text x="125" y="190" text-anchor="middle" font-size="24" fill="#fff"><tspan fill="#093c5d">10th Class</tspan></text>
+      <text x="125" y="235" text-anchor="middle" font-size="44">80.00%</text>
+    </g>
+    <g transform="translate(760 570)">
+      <rect width="250" height="250" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <circle cx="125" cy="75" r="55" fill="#fff1ef"/>
+      <text x="125" y="92" text-anchor="middle" font-size="48">V</text>
+      <text x="125" y="154" text-anchor="middle" font-size="27">VANSHIKA</text>
+      <text x="125" y="190" text-anchor="middle" font-size="24">10th Class</text>
+      <text x="125" y="235" text-anchor="middle" font-size="44">75.16%</text>
+    </g>
+    <g transform="translate(470 850)">
+      <rect width="250" height="235" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <circle cx="125" cy="66" r="50" fill="#f0f7ef"/>
+      <text x="125" y="84" text-anchor="middle" font-size="42">S</text>
+      <text x="125" y="142" text-anchor="middle" font-size="30">SHEETAL</text>
+      <text x="125" y="176" text-anchor="middle" font-size="23">10th Class</text>
+      <text x="125" y="220" text-anchor="middle" font-size="42">74.66%</text>
+    </g>
+    <g transform="translate(760 850)">
+      <rect width="250" height="235" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <text x="125" y="86" text-anchor="middle" font-size="62" font-style="italic">Next</text>
+      <text x="125" y="146" text-anchor="middle" font-size="60">YOU</text>
+      <rect x="24" y="169" width="202" height="44" rx="12" fill="url(#gold)"/>
+      <text x="125" y="199" text-anchor="middle" font-size="20" fill="#061f32">The Best Is Yet To Come!</text>
+    </g>
+    <g transform="translate(70 1105)">
+      <rect width="280" height="200" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <rect x="0" y="0" width="280" height="82" rx="18" fill="#ce2929"/>
+      <text x="140" y="118" text-anchor="middle" font-size="30">KAVITA</text>
+      <text x="140" y="151" text-anchor="middle" font-size="22">10th Class</text>
+      <text x="140" y="193" text-anchor="middle" font-size="40">69.16%</text>
+    </g>
+    <g transform="translate(400 1105)">
+      <rect width="280" height="200" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <rect x="0" y="0" width="280" height="82" rx="18" fill="#8ed1f1"/>
+      <text x="140" y="118" text-anchor="middle" font-size="30">PALAK</text>
+      <text x="140" y="151" text-anchor="middle" font-size="22">10th Class</text>
+      <text x="140" y="193" text-anchor="middle" font-size="40">67.66%</text>
+    </g>
+    <g transform="translate(730 1105)">
+      <rect width="280" height="200" rx="18" fill="#ffffff" stroke="#d6a43b" stroke-width="4"/>
+      <rect x="0" y="0" width="280" height="82" rx="18" fill="#cf262a"/>
+      <text x="140" y="118" text-anchor="middle" font-size="30">PRATIBHA</text>
+      <text x="140" y="151" text-anchor="middle" font-size="22">10th Class</text>
+      <text x="140" y="193" text-anchor="middle" font-size="40">67.00%</text>
+    </g>
+  </g>
+  <rect x="0" y="1338" width="1080" height="174" fill="url(#navy)"/>
+  <text x="120" y="1415" font-family="Arial, sans-serif" font-size="27" font-weight="900" fill="#f7d16b">FOCUS</text>
+  <text x="120" y="1450" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">on your goal</text>
+  <text x="450" y="1415" font-family="Arial, sans-serif" font-size="27" font-weight="900" fill="#f7d16b">WORK HARD</text>
+  <text x="450" y="1450" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">in silence</text>
+  <text x="790" y="1415" font-family="Arial, sans-serif" font-size="27" font-weight="900" fill="#f7d16b">SUCCESS</text>
+  <text x="790" y="1450" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">will make the noise</text>
+</svg>
