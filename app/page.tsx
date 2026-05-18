@@ -2,19 +2,14 @@ import Image from "next/image";
 import Script from "next/script";
 import {
   ArrowRight,
-  BadgeCheck,
   BookOpenCheck,
   CheckCircle2,
-  Globe2,
   MapPin,
-  Megaphone,
   MessageCircle,
-  Palette,
   Phone,
   Quote,
   ShieldCheck,
-  Star,
-  TrendingUp
+  Star
 } from "lucide-react";
 import { AdmissionForm } from "@/components/AdmissionForm";
 import { Header } from "@/components/Header";
@@ -37,82 +32,6 @@ const encodedMapQuery = encodeURIComponent(school.mapQuery);
 const mapSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodedMapQuery}`;
 const mapEmbedUrl =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.287372399105!2d77.30000357449843!3d28.740835779156114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf958e4d4d391%3A0xa922705e89c5041f!2sTRIVENI%20TRIRATAN%20PUBLIC%20JR.%20HIGH%20SCHOOL!5e0!3m2!1sen!2sin!4v1778479154375!5m2!1sen!2sin";
-const nxtWhatsAppNumber = "917290810294";
-const nxtDisplayWhatsApp = "+91 7290810294";
-const nxtWhatsAppUrl = `https://wa.me/${nxtWhatsAppNumber}?text=${encodeURIComponent(
-  "Hi NXT Eleveta Media, I want to discuss a monthly marketing package."
-)}`;
-
-const monthlyPackages = [
-  {
-    name: "STARTER",
-    price: "₹4,999",
-    suffix: "/mo",
-    audience: "Best for small shops, local brands, new restaurants.",
-    features: [
-      "8-10 Posters",
-      "Basic Social Media Management",
-      "2 Reels",
-      "Monthly Posting",
-      "Basic SEO Captions"
-    ]
-  },
-  {
-    name: "GROWTH",
-    price: "₹14,999",
-    suffix: "/mo",
-    audience: "Best for schools, coaching centers, restaurants.",
-    badge: "Most Popular",
-    featured: true,
-    features: [
-      "15-20 Posters",
-      "8-12 Reels",
-      "Full Social Media Management",
-      "Google Business Profile SEO",
-      "Monthly Analytics",
-      "Basic Meta Ads Support"
-    ]
-  },
-  {
-    name: "PREMIUM",
-    price: "Custom Pricing",
-    suffix: "",
-    audience: "Best for big schools, showrooms, startups.",
-    features: [
-      "Daily Content",
-      "Performance Marketing",
-      "Meta Ads",
-      "Lead Generation",
-      "Website Updates",
-      "Advanced SEO",
-      "Professional Video Editing",
-      "Branding Strategy"
-    ]
-  }
-];
-
-const servicePricing = [
-  {
-    title: "Website Development",
-    icon: Globe2,
-    lines: ["Basic Website: ₹8,000-₹15,000", "Premium Animated Website: ₹20,000-₹50,000+"]
-  },
-  {
-    title: "Meta Ads Management",
-    icon: Megaphone,
-    lines: ["Setup Fee: ₹3,000-₹10,000", "Monthly Management: ₹5,000-₹25,000"]
-  },
-  {
-    title: "Google Business Profile SEO",
-    icon: TrendingUp,
-    lines: ["₹3,000-₹10,000/month"]
-  },
-  {
-    title: "Logo & Branding",
-    icon: Palette,
-    lines: ["Logo Design: ₹1,000-₹5,000", "Full Branding Kit: ₹8,000-₹20,000"]
-  }
-];
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -192,152 +111,6 @@ function SectionHeading({
         </p>
       ) : null}
     </SectionReveal>
-  );
-}
-
-function PricingSection() {
-  return (
-    <section
-      id="pricing"
-      className="relative overflow-hidden bg-[#050409] py-20 text-white sm:py-24"
-    >
-      <div className="absolute left-[-12rem] top-16 h-80 w-80 rounded-full bg-[#8e35ff]/25 blur-[120px]" />
-      <div className="absolute right-[-10rem] top-1/3 h-96 w-96 rounded-full bg-[#65f040]/18 blur-[130px]" />
-      <div className="absolute bottom-0 left-1/2 h-72 w-[42rem] -translate-x-1/2 rounded-full bg-[#7d2dff]/18 blur-[150px]" />
-
-      <div className="container-x relative z-10">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-black uppercase tracking-[0.24em] text-[#65f040]">
-            NXT Eleveta Media Pricing
-          </p>
-          <h2 className="mt-4 text-3xl font-black tracking-tight text-white sm:text-5xl">
-            Premium marketing packages built for visible monthly growth.
-          </h2>
-          <p className="mt-5 text-base font-semibold leading-8 text-white/70">
-            Choose a monthly plan for content, reels, ads, SEO, branding, and
-            lead generation. Every plan starts with a direct WhatsApp strategy
-            discussion.
-          </p>
-        </div>
-
-        <div className="mx-auto mt-9 flex max-w-4xl flex-col items-center justify-between gap-4 rounded-lg border border-[#65f040]/35 bg-white/[0.07] p-5 shadow-[0_0_60px_rgba(101,240,64,0.14)] backdrop-blur-xl sm:flex-row">
-          <div>
-            <p className="text-xs font-black uppercase tracking-[0.22em] text-[#b779ff]">
-              Limited Offer
-            </p>
-            <h3 className="mt-2 text-2xl font-black text-white">
-              First Month Trial + Free Marketing Audit
-            </h3>
-          </div>
-          <a
-            href={nxtWhatsAppUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-lg bg-[#65f040] px-5 text-sm font-black text-black shadow-[0_0_28px_rgba(101,240,64,0.45)] transition hover:-translate-y-0.5"
-          >
-            <MessageCircle size={18} aria-hidden="true" />
-            {nxtDisplayWhatsApp}
-          </a>
-        </div>
-
-        <div className="mt-10 grid gap-5 lg:grid-cols-3">
-          {monthlyPackages.map((plan) => (
-            <div
-              key={plan.name}
-              className={`relative flex h-full flex-col rounded-lg border p-6 shadow-[0_22px_80px_rgba(0,0,0,0.4)] backdrop-blur-2xl transition hover:-translate-y-1 ${
-                plan.featured
-                  ? "border-[#65f040]/80 bg-[#10180d]/80 shadow-[0_0_72px_rgba(101,240,64,0.22)]"
-                  : "border-white/12 bg-white/[0.06]"
-              }`}
-            >
-              {plan.badge ? (
-                <div className="absolute right-5 top-5 rounded-full border border-[#65f040]/50 bg-[#65f040] px-3 py-1 text-xs font-black uppercase text-black shadow-[0_0_24px_rgba(101,240,64,0.4)]">
-                  {plan.badge}
-                </div>
-              ) : null}
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg border border-[#b779ff]/35 bg-[#7d2dff]/14 text-[#b779ff]">
-                <BadgeCheck size={24} aria-hidden="true" />
-              </div>
-              <h3 className="mt-6 text-2xl font-black tracking-wide text-white">
-                {plan.name}
-              </h3>
-              <div className="mt-4 flex items-end gap-1">
-                <span
-                  className={`text-4xl font-black tracking-tight ${
-                    plan.featured ? "text-[#65f040]" : "text-white"
-                  }`}
-                >
-                  {plan.price}
-                </span>
-                {plan.suffix ? (
-                  <span className="pb-1 text-sm font-extrabold text-white/55">
-                    {plan.suffix}
-                  </span>
-                ) : null}
-              </div>
-              <p className="mt-4 min-h-[3.5rem] text-sm font-semibold leading-7 text-white/68">
-                {plan.audience}
-              </p>
-              <div className="mt-6 grid gap-3">
-                {plan.features.map((feature) => (
-                  <div key={feature} className="flex gap-3 text-sm font-bold text-white/82">
-                    <CheckCircle2
-                      className={`mt-0.5 h-5 w-5 shrink-0 ${
-                        plan.featured ? "text-[#65f040]" : "text-[#b779ff]"
-                      }`}
-                      aria-hidden="true"
-                    />
-                    <span>{feature}</span>
-                  </div>
-                ))}
-              </div>
-              <a
-                href={nxtWhatsAppUrl}
-                target="_blank"
-                rel="noreferrer"
-                className={`mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-lg px-5 text-sm font-black transition hover:-translate-y-0.5 ${
-                  plan.featured
-                    ? "bg-[#65f040] text-black shadow-[0_0_32px_rgba(101,240,64,0.42)]"
-                    : "border border-[#b779ff]/50 bg-[#7d2dff]/16 text-white hover:bg-[#7d2dff]/25"
-                }`}
-              >
-                <MessageCircle size={18} aria-hidden="true" />
-                Discuss on WhatsApp
-              </a>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          {servicePricing.map((service) => (
-            <div
-              key={service.title}
-              className="rounded-lg border border-white/12 bg-white/[0.055] p-5 shadow-[0_20px_70px_rgba(0,0,0,0.35)] backdrop-blur-2xl"
-            >
-              <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#7d2dff]/18 text-[#b779ff] ring-1 ring-[#b779ff]/30">
-                <service.icon size={22} aria-hidden="true" />
-              </div>
-              <h3 className="mt-5 text-lg font-black text-white">{service.title}</h3>
-              <div className="mt-4 grid gap-3">
-                {service.lines.map((line) => (
-                  <p key={line} className="text-sm font-bold leading-6 text-white/72">
-                    {line}
-                  </p>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-10 rounded-lg border border-[#b779ff]/25 bg-[#7d2dff]/10 p-5 text-center text-sm font-extrabold text-white/80 backdrop-blur-xl">
-          WhatsApp NXT Eleveta Media at{" "}
-          <a href={nxtWhatsAppUrl} target="_blank" rel="noreferrer" className="text-[#65f040]">
-            {nxtDisplayWhatsApp}
-          </a>{" "}
-          for package fit, audit, and launch timeline.
-        </div>
-      </div>
-    </section>
   );
 }
 
@@ -659,8 +432,6 @@ export default function Home() {
             </SectionReveal>
           </div>
         </section>
-
-        <PricingSection />
 
         <section className="section-padding bg-navy text-white">
           <div className="container-x grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
